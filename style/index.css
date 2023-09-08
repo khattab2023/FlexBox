@@ -1,0 +1,124 @@
+h1 {
+    color: blue;
+    text-align:left ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align:left ;
+    margin-left: 10px;
+}
+
+p {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.log__1{
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+}
+
+.body{
+color: rgb(247, 242, 185);
+}
+.container {
+    background-color: rgb(221, 238, 232);
+    width: 700px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 53px;
+    margin: 100px auto;
+    max-width: max-content;
+    display: flex;
+    text-align: left;
+    justify-content:space-between;
+    align-items: first baseline;
+}
+
+.card__1{
+    max-width: 200px;
+    min-height: 300px;
+    background-color: cyan;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+}
+.btn__1{
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: medium;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(250, 254, 1);
+}
+
+.card__2{
+    max-width: 200px;
+    min-height: 300px;
+    background-color: cyan;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+}
+.btn__2{
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: medium;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(250, 254, 1);
+}
+
+.card__3{
+    max-width: 200px;
+    min-height: 300px;
+    background-color: cyan;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+}
+.btn{
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: medium;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    bottom: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: rgb(250, 254, 1);
+}
+
+.btn--success {
+background-color: green;
+}
+.btn--decline {
+    background-color:red;
+}
+
