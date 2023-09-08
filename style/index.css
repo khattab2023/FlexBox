@@ -18,12 +18,14 @@ p {
     margin-right: 10px;
 }
 .nav__bar{
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     padding-right: 10px;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: flex-start;
-
+    align-content: stretch;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
 }
 .login__1{
     background-color: rgb(234, 207, 175);
