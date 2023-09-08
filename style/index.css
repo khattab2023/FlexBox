@@ -1,4 +1,4 @@
-h1 {
+header {
     color: blue;
     text-align:left ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,11 +17,38 @@ p {
     margin-left: 10px;
     margin-right: 10px;
 }
+.nav__bar{
+    padding-bottom: 40px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 
-.log__1{
+}
+.login__1{
+    background-color: rgb(234, 207, 175);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 22px;
+    align-self: last baseline;
+}
+.about__1 {
+    background-color:rgb(235, 219, 201);
+    font-weight: normal;
     display: flex;
     align-items: center;
     margin-left: 22px;
+    border-radius: 4px;
+}
+.links__1{
+    background-color:rgb(235, 219, 201);
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 22px;
+    border-radius: 4px;
 }
 
 .container {
